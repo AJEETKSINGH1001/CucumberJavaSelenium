@@ -12,8 +12,8 @@ monochrome=true,
 //plugin = {"pretty","json:target/JSONReports/Report.json"}
 //plugin = {"pretty","junit:target/JunitReports/Report.xml"},
 
-  plugin = {"pretty","html:target/HTMLReports/HtmlReports.html","json:target/JSONReports/Report.json","junit:target/JunitReports/Report.xml" },
-tags="@Smoketest"
+  plugin = {"pretty","html:target/HTMLReports/HtmlReports.html","json:target/JSONReports/Report.json","junit:target/JunitReports/Report.xml" }
+ //tags="@Smoketest"
 )
 public class testrunner {
 
